@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Recipe page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    *{
+      margin: 0 0 0 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .conteiner{
+      padding-top: 2%;
+      padding-bottom: 2%;
+
+      background-color: hsl(30, 10%, 34%);
+
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .corpo{
+      background-color: hsl(330, 100%, 98%);
+      justify-content: center;
+      border-radius: 2%;
+      padding-left: 2%;
+      width: 60%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+    }
+
+    #img-redonda{
+      border-radius: 15%;
+      padding-left: 8%;
+    }
+
+    #p1{
+      font-size: 16px;
+      line-height: normal;
+    }
+
+    .preparation{
+      width: 96%;
+      height: 150px;
+      background-color: beige;
+      border-radius: 3%;
+      padding-top: 1%;
+      padding-left: 1%;
+    }
+
+    .banner{
+      padding-left: 1%;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: left;
+      padding-right: 1%;
+      background-color: beige;
+      width: 96%;
+      border-radius: 3%;
+    }
+
+    #h33{
+      color: brown;
+    }
+
+    .ingredientes{
+      background-color: beige;
+      width: 96%;
+      height: 210px;
+      padding-top: 1%;
+      padding-left: 1%;
+      font-family: Arial, Helvetica, sans-serif;
+      border-radius: 3%;
+    }
+
+    hr{
+      width: 60%;
+    }
+
+    #hi{
+      color: brown;
+    }
+
+    .instru{
+      background-color: beige ;
+      width: 96%;
+      height: 230px;
+      border-radius: 3%;
+      padding-left: 1%;
+      padding-top: 1%;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #hins{
+      color: brown;
+    }
+    
+    .cont1{
+      display: flex;
+      flex-direction: row;
+      padding-left: 4%;
+    }
+
+    .cont2{
+      display: flex;
+      flex-direction: row;
+      padding-left: 4%;
+    }
+
+    .cont3{
+      display: flex;
+      flex-direction: row;
+      padding-left: 4%;
+    }
+
+    .cont4{
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 1%;
+      padding-left: 4%;
+    }
+
+    .box{
+      width: 50%;
+    }
+    
+    .nut{
+      width: 96%;
+      border-radius: 3%;
+      background-color: beige;
+      padding-left: 1%;
+      padding-top: 1%;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #it2{
+      color: brown;
+    }
+
+    #it4{
+      color: brown;
+    }
+
+    #it6{
+      color: brown;
+    }
+
+    #it8{
+      color: brown;
+    }
+
+    #hrr{
+      width: 96%;
+    }
+    
+  </style>
+</head>
+<body>
+      <div class="conteiner">
+        <div class="corpo">
+          <div>
+              <img id="img-redonda" src="./assets/images/image-omelette.jpeg" alt="Omellete" width="600px">
+            </div>
+
+            <br>
+          
+            <div class="banner">
+            <h1>Simple Omelette Recipe</h1>
+
+            <br>
+
+            <p> Easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+            to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+
+            </div>
+
+            <br> <br>
+
+            <div class="preparation">
+
+            <h3 id="h33">Preparation time</h3>
+              <br>
+            <ul>
+              <li><b>Total:</b> Approximately 10 minutes</li>
+              <br>
+              <li><b>Preparation:</b> 5 minutes</li>
+              <br>
+              <li><b>Cooking:</b> 5 minutes</li>
+            </ul>
+            </div>
+
+            <br>
+
+              <div class="ingredientes">
+
+            <h3 id="hi">Ingredients</h3>
+
+            <br>
+
+            <ul>
+              <li>2-3 large eggs</li>
+              <br>
+              <li>Salt, to taste</li>
+              <br>
+              <li>Pepper, to taste</li>
+              <br>
+              <li>1 tablespoon of butter or oil</li>
+              <br>
+              <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+            </ul>
+
+            </div>
+
+            <br>
+
+            <hr>
+
+            <br>
+
+            <div class="instru">
+
+            <h3 id="hins">Instructions</h3>
+
+            <br>
+
+            <ol>
+
+              <li><b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+                You can add a tablespoon of water or milk for a fluffier texture.</li>
+
+              <li><b>Heat the pan:</b> Place a non-stick frying pan over medium heat and add butter or oil.</li>
+
+              <li><b>Cook the omelette:</b> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+                the eggs evenly coat the surface.</li>
+
+              <li><b>Add fillings (optional):</b> When the eggs begin to set at the edges but are still slightly runny in the 
+                middle, sprinkle your chosen fillings over one half of the omelette.
+              </li>
+
+              <li><b>Fold and serve:</b> As the omelette continues to cook, carefully lift one edge and fold it over the 
+                fillings. Let it cook for another minute, then slide it onto a plate.</li>
+
+              <li><b>Enjoy:</b> Serve hot, with additional salt and pepper if needed.
+              </li>
+            </ol>
+
+            </div>
+
+            <br>
+
+            <hr>
+
+            <br>
+
+            <div class="nut">
+
+              <h3 id="hnut">Nutrition</h3>
+
+              <br>
+
+              <p>The table below shows nutritional values per serving without the additional fillings.</p>
+
+              <br>
+
+                  <div class="cont1">
+
+                    <div class="box" id="it1"><b>Calories</b></div>
+                    <div class="box" id="it2"><b>277kcal</b></div>
+
+                  </div>
+
+                  <br><hr id="hrr"><br>
+
+                  <div class="cont2">
+
+                    <div class="box" id="it3"><b>Carbs</b></div>
+                    <div class="box" id="it4"><b>0g</b></div>
+
+                  </div>
+
+                  <br><hr id="hrr"><br>
+
+                  <div class="cont3">
+
+                    <div class="box" id="it5"><b>Protein</b></div>
+                    <div class="box" id="it6"><b>20g</b></div>
+
+                  </div>
+
+                  <br><hr id="hrr"><br>
+
+                  <div class="cont4">
+
+                    <div class="box" id="it7"><b>Fat</b></div>
+                    <div class="box" id="it8"><b>22g</b></div>
+
+                  </div>
+            </div>
+        </div>
+      </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Diharlis" target="_blank">@Diharlis</a>.
+  </div>
+</body>
+</html>
